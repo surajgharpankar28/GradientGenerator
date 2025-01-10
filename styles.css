@@ -8,7 +8,9 @@ body {
   min-height: 100vh;
   background: #f0f0f0;
 }
-
+#title {
+  font-size: 3rem;
+}
 .gradient-container {
   text-align: center;
   background: #fff;
@@ -32,18 +34,30 @@ body {
 }
 
 .buttons button {
-  background-color: #007bff;
+  background-color: #4caf50; /* Updated theme color */
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 12px 24px; /* Slightly larger padding */
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 8px; /* Softer rounded corners */
   font-size: 16px;
-  margin-right: 10px;
+  font-weight: bold; /* Emphasized text */
+  margin-right: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    transform 0.2s ease; /* Smooth transitions */
 }
 
 .buttons button:hover {
-  background-color: #0056b3;
+  background-color: #45a049; /* Slightly darker green for hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+  transform: translateY(-2px); /* Slight hover lift */
+}
+
+.buttons button:active {
+  background-color: #3d8f41; /* Even darker green for active state */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15); /* Reduced shadow on click */
+  transform: translateY(0); /* Reset hover lift */
 }
 
 #css-code {

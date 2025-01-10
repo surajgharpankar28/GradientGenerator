@@ -10,7 +10,7 @@
 
 <body>
     <div class="gradient-container">
-        <h1>Gradient Generator</h1>
+        <h1 id="title">Gradient Generator</h1>
         <div class="controls">
             <label for="color1">Color 1:</label>
             <input type="color" id="color1" value="#ff0000">
@@ -23,12 +23,15 @@
                 <option value="to bottom">To Bottom</option>
                 <option value="to top">To Top</option>
                 <option value="to bottom right">To Bottom Right</option>
+                <option value="to bottom left">To Bottom Left</option>
+                <option value="to top right">To Top Right</option>
                 <option value="to top left">To Top Left</option>
             </select>
         </div>
+
         <div class="buttons">
-            <button id="generate">Generate Gradient</button>
-            <button id="random">Generate Random</button>
+            <button id="generate">Custom Gradient</button>
+            <button id="random">Random Gradient</button>
 
         </div>
         <p id="css-code"></p>
