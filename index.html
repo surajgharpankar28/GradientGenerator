@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="gradient-container">
+        <h1>Gradient Generator</h1>
+        <div class="controls">
+            <label for="color1">Color 1:</label>
+            <input type="color" id="color1" value="#ff0000">
+            <label for="color2">Color 2:</label>
+            <input type="color" id="color2" value="#0000ff">
+            <label for="direction">Direction:</label>
+            <select id="direction">
+                <option value="to right">To Right</option>
+                <option value="to left">To Left</option>
+                <option value="to bottom">To Bottom</option>
+                <option value="to top">To Top</option>
+                <option value="to bottom right">To Bottom Right</option>
+                <option value="to top left">To Top Left</option>
+            </select>
+        </div>
+        <div class="buttons">
+            <button id="generate">Generate Gradient</button>
+            <button id="random">Generate Random</button>
+
+        </div>
+        <p id="css-code"></p>
+        <button id="copy">Copy CSS</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
