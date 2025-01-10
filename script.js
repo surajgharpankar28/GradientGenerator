@@ -6,6 +6,7 @@ const randomButton = document.getElementById("random");
 const copyButton = document.getElementById("copy");
 const cssCode = document.getElementById("css-code");
 const title = document.getElementById("title");
+const copyBtn = document.getElementById("copy");
 const body = document.body;
 
 textGradient = (gradient) => {
@@ -61,10 +62,15 @@ copyButton.addEventListener("click", () => {
     navigator.clipboard
       .writeText(cssCode.textContent)
       .then(() => {
-        alert("CSS code copied to clipboard!");
+        // alert("CSS code copied to clipboard!");
+        copyBtn.textContent = "CSS code copied!!";
+        // Reset the text back to "Copy CSS" after 2 seconds
+        setTimeout(() => {
+          copyBtn.textContent = "Copy CSS";
+        }, 2000);
       })
       .catch((err) => {
-        alert("Failed to copy CSS code.");
+        copyBtn.textContent = "Failed to copy CSS code.";
         console.error(err);
       });
   } else {

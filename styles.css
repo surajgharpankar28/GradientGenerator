@@ -69,11 +69,17 @@ body {
 }
 
 #copy {
-  text-decoration: underline;
-  border: none;
-  background: none;
-  font-weight: 600;
+  text-decoration: underline; /* Underline the text */
+  border: none; /* Remove border */
+  background: none; /* No background */
+  font-weight: 600; /* Semi-bold text */
+  color: #333; /* Default text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: color 0.3s ease, text-decoration-color 0.3s ease; /* Smooth transition for color and underline */
 }
+
 #copy:hover {
-  color: #0056b3;
+  color: #0056b3; /* Change text color on hover */
+  text-decoration-color: #0056b3; /* Change underline color on hover */
 }
+
