@@ -60,10 +60,3 @@ background: linear-gradient(to right, #ff0000, #0000ff);
 ## Contributing
 
 Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository and submit a pull request.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-\
