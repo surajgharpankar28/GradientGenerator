@@ -12,7 +12,7 @@ A simple and interactive Gradient Generator built with HTML, CSS, and JavaScript
 ## Demo
 
 Check out here -
-[Link](https://gradient-code-generator.vercel.app/)
+[Gradient Generator](https://gradient-code-generator.vercel.app/)
 
 ## How to Use
 
