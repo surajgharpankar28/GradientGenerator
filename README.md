@@ -11,7 +11,8 @@ A simple and interactive Gradient Generator built with HTML, CSS, and JavaScript
 
 ## Demo
 
-![Gradient Generator Preview](https://via.placeholder.com/800x400.png?text=Gradient+Generator+Preview)
+Check out here -
+[Link](https://gradient-code-generator.vercel.app/)
 
 ## How to Use
 
